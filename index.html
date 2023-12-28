@@ -35,28 +35,45 @@
                         display: flex;
                         justify-content: space-between;
                     }
-                    .banner a {
-                        margin-right: 10px;
-                        color: white; /* Change text color to white */
-                        text-decoration: none;
-                    }
+                    <style>
+                        .banner {
+                            background-color: black; /* Background color for Banner */
+                            padding: 10px;
+                            margin-bottom: 20px;
+                            border-radius: 5px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center; /* Add this line to vertically center the name */
+                        }
+
+                        .banner a {
+                            margin-right: 10px;
+                            color: white; /* Change text color to white */
+                            text-decoration: none;
+                        }
+
+                        .banner-name {
+                            color: white; /* Change text color to white */
+                            font-weight: bold;
+                        }
                     </style>
                     </head>
                     <!-- Banners-->
-    <body>
-        <div class="banner" style="text-align: left;">
-            <div class="banner-links">
-                <a href="#home">Home</a>
-                <span class="separator">|</span>
-                <a href="#papers">Papers</a>
-                <span class="separator">|</span>
-                <a href="#presentation">Presentation</a>
-                <span class="separator">|</span>
-                <a href="#software-citations">Software Citations</a>
-                <span class="separator">|</span>
-                <a href="#blogs">Blogs</a>
-            </div>
-        </div>
+                    <body>
+                        <div class="banner" style="text-align: right;">
+                            <div class="banner-links">
+                                <a href="#home">Home</a>
+                                <span class="separator">|</span>
+                                <a href="#papers">Papers</a>
+                                <span class="separator">|</span>
+                                <a href="#presentation">Presentation</a>
+                                <span class="separator">|</span>
+                                <a href="#software-citations">Software Citations</a>
+                                <span class="separator">|</span>
+                                <a href="#blogs">Blogs</a>
+                            </div>
+                            <div class="banner-name">Richard DiazDeLeon</div> <!-- Add this line to display the name: add your name here -->
+                        </div>
 
         <!-- Intro Portion (Top Portion) -->
         <div class="container" style="display: flex; align-items: center; justify-content: space-between;">
